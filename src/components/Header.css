@@ -1,0 +1,83 @@
+.header {
+  padding: 20px 30px;
+  background: #f5f6fa;
+}
+
+/* 🔹 ROW 1 */
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.tryBtn {
+  background: linear-gradient(135deg, #6a5acd, #7b68ee);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+}
+
+/* 🔹 ROW 2 */
+.bottomRow {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+}
+
+/* RIGHT SIDE */
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  background: #eef1f7;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+.searchBox input {
+  border: none;
+  background: transparent;
+  outline: none;
+  margin-left: 5px;
+}
+
+.searchBtn {
+  background: #6a5acd;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+
+.bellBox {
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user img {
+  border-radius: 50%;
+}
