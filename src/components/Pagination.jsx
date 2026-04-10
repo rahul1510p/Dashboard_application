@@ -4,7 +4,7 @@ export default function Pagination({ totalPages, currentPage, setPage }) {
   return (
     <div className="pagination">
 
-      {/* Previous Button */}
+    
       <button
         disabled={currentPage === 1}
         onClick={() => setPage(currentPage - 1)}
